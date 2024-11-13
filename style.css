@@ -1,7 +1,10 @@
 
-
 .initial{
     background-color: #1F2937;
+}
+
+.sticky{
+    padding: 16px;
 }
 
 header{
@@ -9,7 +12,11 @@ header{
     justify-content:space-around;
 }
 
-
+.nav-links{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
 nav a{
     padding: 1.5em;
     text-decoration: none;
@@ -28,8 +35,7 @@ nav a{
     display: flex;
     justify-content:space-around;
     padding-top: 5em;
-  
-
+    margin-right: 5em;
 }
 
 .hero-sect h1 {
@@ -46,6 +52,8 @@ nav a{
    padding-bottom: 5em;
 }
 .hero-image{
+    height: auto;
+    width: 350px;
     margin-right: 20%;
 }
 .hero-image img{
@@ -87,6 +95,9 @@ nav a{
         display: flex;
         justify-content: space-around;
         background-color: #3882F6;
+        border: 20px;
+        border-radius: 15px;
+        padding: 10px;
       }
 
       .signup{
